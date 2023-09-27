@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Milan Store</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar Start -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">milan<span>store</span></a>
+
+      <div class="navbar-nav">
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#product">Products</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="search">
+          <i data-feather="search"></i>
+        </a>
+
+        <a href="#" id="shopping-cart"
+          ><i data-feather="shopping-cart"> </i>
+        </a>
+
+        <a href="#" id="hamburger-menu">
+          <i data-feather="menu"> </i>
+        </a>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Hero Section Start -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>Milan <span>Store</span></h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt,
+          praesentium.
+        </p>
+        <a href="#product" class="cta">our Products</a>
+      </main>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- About Section Start -->
+    <section class="about" id="about">
+      <h2><span>About</span> Us</h2>
+
+      <div class="row">
+        <div class="about-img">
+          <img src="img/cube.jpg" alt="About Us" />
+        </div>
+
+        <div class="content">
+          <h3>Why Us?</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem
+            voluptas fugit pariatur laboriosam quibusdam ipsum.
+          </p>
+
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat
+            voluptas veniam vitae rem quisquam facere distinctio dicta! Sit ex
+            exercitationem iure?
+          </p>
+
+          <div class="line"></div>
+
+          <h3>Contact Us</h3>
+        </div>
+      </div>
+    </section>
+    <!-- About Section End -->
+
+    <!-- Product Section Start -->
+    <section class="product" id="product">
+      <h2>Product</h2>
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+        itaque hic iure, nam asperiores laborum.
+      </p>
+
+      <div class="row">
+        <!-- Cheese Donut -->
+        <div class="product-card">
+          <img
+            src="img/product/donut.png"
+            alt="Donut"
+            class="product-card-img"
+          />
+
+          <h3 class="product-card-title">Cheese Donut</h3>
+          <p class="product-card-price">$ 1</p>
+        </div>
+
+        <!-- Missiles -->
+        <div class="product-card">
+          <img
+            src="img/product/missiles.png"
+            alt="Missiles"
+            class="product-card-img"
+          />
+
+          <h3 class="product-card-title">Missiles</h3>
+          <p class="product-card-price">$ 2</p>
+        </div>
+
+        <!-- Rain -->
+        <div class="product-card">
+          <img src="img/product/rain.png" alt="Rain" class="product-card-img" />
+
+          <h3 class="product-card-title">Rain</h3>
+          <p class="product-card-price">$ 1 . 5</p>
+        </div>
+
+        <!-- Snow -->
+        <div class="product-card">
+          <img src="img/product/snow.png" alt="Snow" class="product-card-img" />
+
+          <h3 class="product-card-title">Snow</h3>
+          <p class="product-card-price">$ 1</p>
+        </div>
+      </div>
+    </section>
+    <!-- Product Section End -->
+
+    <!-- Contact Section Start -->
+    <section class="contact" id="contact">
+      <h2><span>Contact</span> Us</h2>
+
+      <p>Lorem ipsum dolor sit amet.</p>
+
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d89092.15975150814!2d106.9434473566345!3d-6.252295918248142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e698d8546ad633d%3A0x79e8de8965402078!2sBekasi%20City%2C%20West%20Java!5e0!3m2!1sen!2sid!4v1677233600387!5m2!1sen!2sid"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="map"
+        ></iframe>
+
+        <form action="">
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" placeholder="Name" />
+          </div>
+
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <input type="email" placeholder="Email" />
+          </div>
+
+          <div class="input-group">
+            <i data-feather="phone"></i>
+            <input type="number" placeholder="Phone Number" />
+          </div>
+
+          <button type="submit" class="btn">Send</button>
+        </form>
+      </div>
+    </section>
+    <!-- Contact Section End -->
+
+    <!-- Footer Start -->
+    <footer>
+      <div class="socials">
+        <a href="https://www.instagram.com/erikaradw/">
+          <i data-feather="instagram"></i>
+        </a>
+
+        <a href="https://www.twitter.com//">
+          <i data-feather="twitter"></i>
+        </a>
+
+        <a href="https://www.facebook.com//">
+          <i data-feather="facebook"></i>
+        </a>
+      </div>
+
+      <div class="links">
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#product">Products</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="credit">
+        <p>Created By <a>Erika Rahmadewi</a></p>
+      </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+    <script src="js/feather-icons.js"></script>
+  </body>
+</html>
